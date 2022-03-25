@@ -1,0 +1,5 @@
+const users=require('./thirdModule')
+const {getUser,moyen}=require("./localModule")
+// console.log(users)
+console.log(getUser(users,"amani"))
+console.log(moyen(users))
